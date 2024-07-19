@@ -12,7 +12,6 @@ songs = [
     ]
 music_path = os.path.join(os.getcwd(),  'lyric', 'song1.mp3')
 pygame.mixer.music.load(music_path)
-
 pygame.mixer.music.play()
 
 running = True
